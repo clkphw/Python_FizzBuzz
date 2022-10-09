@@ -1,10 +1,12 @@
-for num in range(1,101):
-    if(num % 3 ==0 and num % 5 == 0):
+#Loop through for loop 100 times and print FIZZ if div by 3, BUZZ if div by 5, and FIZZBUZZ if div by both
+#If not Divisible print the number
+for test_num in range(1,101):
+    if(test_num % 3 ==0 and test_num % 5 == 0):
         print("FIZZBUZZ")
         continue
-    if(num % 3 == 0):
+    if (test_num % 3 == 0):
         print("FIZZ")
-    elif(num % 5 == 0):
+    elif (test_num % 5 == 0):
         print("BUZZ")
     else:
-        print(num)
+        print (test_num)
